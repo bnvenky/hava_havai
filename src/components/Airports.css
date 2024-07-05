@@ -1,0 +1,17 @@
+.MuiTableContainer-root {
+    margin-top: 20px;
+  }
+  
+  .MuiTableCell-root {
+    padding: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    margin-bottom: 16px;
+  }
+  

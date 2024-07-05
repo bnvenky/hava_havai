@@ -1,0 +1,16 @@
+.tabs {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .terminal-info {
+    margin-bottom: 16px;
+  }
+  
+  .terminal-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  

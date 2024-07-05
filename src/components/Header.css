@@ -1,0 +1,14 @@
+.MuiAppBar-root {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .MuiTypography-root {
+    color: #000000;
+  }
+  
