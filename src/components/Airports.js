@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import { Button, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Container } from '@mui/material';
 import './Airports.css';
 
 const airports = [
@@ -13,7 +13,7 @@ const airports = [
 
 const Airports = () => {
   return (
-    <div>
+      <Container>
       <div>
       <h1>Airports</h1>
       <Button variant="contained" color="primary" component={Link} to="/airports/new">
@@ -47,7 +47,8 @@ const Airports = () => {
           </TableBody>
         </Table>
       </TableContainer>
-    </div>
+      
+      </Container>
   );
 };
 

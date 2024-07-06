@@ -1,12 +1,12 @@
 import React from 'react';
-import { TextField, Button, MenuItem, Select, FormControl, InputLabel } from '@mui/material';
+import { TextField, Button, MenuItem, Select, FormControl, InputLabel, Container } from '@mui/material';
 import './AirportDetails.css';
 
 const AirportDetails = () => {
   
 
   return (
-    <div>
+    <Container>
       <h1>Indira Gandhi International Airport</h1>
       <div className="tabs">
         <Button>Terminals</Button>
@@ -49,7 +49,7 @@ const AirportDetails = () => {
         <input type="file" hidden />
       </Button>
       <Button variant="contained">Save</Button>
-    </div>
+      </Container>
   );
 };
 

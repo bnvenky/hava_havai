@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar style={{"background-color":"white"}} position="static">
       <Toolbar>
         <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
           hava havai
